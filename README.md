@@ -1,4 +1,4 @@
-# 🎓 Student Directory Pro
+# 🎓 Student Directory
 
 A high-performance React application for tracking student attendance and academic success. This project features a dynamic management system with real-time searching, filtering, and sorting.
 
@@ -6,9 +6,8 @@ A high-performance React application for tracking student attendance and academi
 
 ## 📸 UI Showcase
 
-| Desktop Dashboard | Search & Filter Results |
-| :---: | :---: |
-| (./screenshot1.png) | (./screenshot2.png) |
+
+| ![Dashboard View](./screenshot1.png) | ![Filtered View](./screenshot2.png) |
 
 ---
 
