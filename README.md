@@ -20,7 +20,7 @@ A high-performance React application for tracking student attendance and academi
     * **Filter**: Sort by attendance status (All, Present, Absent).
     * **Sort**: Organize by name (A-Z) or academic grade (High-Low).
 * **Top Performer Recognition**: Automatic ⭐ badges for students with grades ≥ 90%.
-* **Responsive UI**: Fully optimized for mobile, tablet, and desktop screens.
+* **Responsive UI**: Fully optimized for mobile, tablet, and desktop screens..
 
 
 ### Setup & Installation
