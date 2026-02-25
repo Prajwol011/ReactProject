@@ -1,0 +1,88 @@
+/* Specific styling for the Student Card component */
+.student-item {
+  background-color: white;
+  width: 100%;
+  max-width: 450px;
+  margin: 15px auto;
+  border-radius: 15px;
+  padding: 20px;
+  color: #5d1919; /* Dark brown for text */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-left: 10px solid #ccc; /* Default gray border */
+}
+
+/* Hover effect to make the UI feel "polished" */
+.student-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Conditional Border Colors */
+.status-present {
+  border-left-color: #16a34a; /* Success Green */
+}
+
+.status-absent {
+  border-left-color: #dc2626; /* Danger Red */
+}
+
+/* Badge for Top Performers */
+.badge-top {
+  background: #fef3c7; /* Light amber */
+  color: #92400e; /* Dark amber */
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 8px;
+  border: 1px solid #f59e0b;
+}
+
+/* Status Indicator Text */
+.status-text {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Action Buttons Container */
+.card-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Small outline buttons for the card */
+.btn-card {
+  padding: 8px 12px;
+  background: transparent;
+  border: 1px solid brown;
+  color: brown;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+
+.btn-card:hover {
+  background-color: brown;
+  color: white;
+}
+
+.btn-delete {
+  border-color: #dc2626;
+  color: #dc2626;
+}
+
+.btn-delete:hover {
+  background-color: #dc2626;
+  color: white;
+}
