@@ -7,7 +7,8 @@ A high-performance React application for tracking student attendance and academi
 ## 📸 UI Showcase
 
 
-| ![Dashboard View](./second/screenshot1.png) | ![Filtered View] |
+
+| ![Dashboard View](./second/screenshot1.png) | ![Filtered View](./second/screenshot2.png) | 
 
 ---
 
